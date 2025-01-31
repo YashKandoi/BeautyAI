@@ -10,9 +10,9 @@ import time
 st.set_page_config(page_title="L'Oréal Men Expert Image Analysis", page_icon="🧔")
 
 # Azure OpenAI configuration
-endpoint = "https://openai-service-azure-rag-student-account.openai.azure.com/"
-deployment = "gpt-4o"
-subscription_key = "81ca01fb9209495595887d4c27bfbcf6"
+endpoint = os.getenv("AZURE_OPENAI_ENDPOINT", "https://openai-service-azure-rag-student-account.openai.azure.com/")
+deployment = os.getenv("AZURE_OPENAI_DEPLOYMENT", "gpt-4o")
+subscription_key = os.getenv("AZURE_OPENAI_KEY", "81ca01fb9209495595887d4c27bfbcf6")
 
 # Product suggestions dictionaries
 skin_suggestions = {
