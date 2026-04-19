@@ -12,7 +12,7 @@ st.set_page_config(page_title="L'OrÃ©al Men Expert Image Analysis", page_icon="ð
 # Azure OpenAI configuration
 endpoint = os.getenv("AZURE_OPENAI_ENDPOINT", "https://openai-service-azure-rag-student-account.openai.azure.com/")
 deployment = os.getenv("AZURE_OPENAI_DEPLOYMENT", "gpt-4o")
-subscription_key = os.getenv("AZURE_OPENAI_KEY", "81ca01fb9209495595887d4c27bfbcf6")
+subscription_key = os.getenv("AZURE_OPENAI_KEY", "81ca01fb9209495595887d4c27bfbcf")
 
 # Product suggestions dictionaries
 skin_suggestions = {
