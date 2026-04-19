@@ -6,7 +6,7 @@ import json
 
 endpoint = "https://openai-service-azure-rag-student-account.openai.azure.com/"
 deployment = "gpt-4o"
-subscription_key = "81ca01fb9209495595887d4c27bfbcf6"
+subscription_key = "81ca01fb9209495595887d4c27bfbcf"
 
 skin_suggestions = {
     "Dry Skin": "L’Oréal Men Expert Hydra Energetic Moisturizer",
